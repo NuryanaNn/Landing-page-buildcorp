@@ -1,0 +1,188 @@
+/* Navbar */
+.nav-link{
+    margin-left: 0px;
+    color: black !important;
+}
+
+/* Jumbotron */
+.jumbotron{
+    background-image: url(img/jumbotron.jpg);
+    height: 650px;
+    text-align: center;
+}
+
+.display-4{
+    margin-top: 130px;
+    color: white;
+}
+
+.lead{
+    color: white;
+}
+
+/* Card Intro */
+.intro{
+    margin-top: -150px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.serving img{
+    width: 290px;
+
+}
+
+
+
+
+/* Action */
+.action-kanan{
+    border: none;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+
+.tombol1{
+    margin-left: 30px;
+}
+
+.action-kiri{
+    margin-right: -200px;
+    margin-top: 50px;
+    z-index: 1;
+    border:none;
+}
+
+.tombol2{
+    margin-bottom: 10px ;
+    margin-left: 20px;
+}
+
+/* Carousel */
+.carousel-item{
+    height: 200px;
+    margin-top: 50px;
+}
+
+.carousel-item h5 img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}
+
+.carousel-control-prev{
+    margin-top: -100px;
+}
+
+.carousel-control-next{
+    margin-top: -100px;
+}
+
+/* Get A Quote */
+.get-quote{
+    background-color: black;
+    color:white;
+    height: 400px;
+    padding-top: 60px;
+}
+
+/* Pertner Card */
+.partner{
+    margin-top: -50px;
+    box-shadow:0px 0px 10px 0px black;
+}
+
+/* Footer */
+ul li{
+    list-style: none;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.pages li{
+    margin-top: 7px;
+    color: orange;
+}
+
+.links li{
+    margin-top: 7px;
+    color: orange;
+}
+
+
+
+
+
+
+
+
+/* Desktop Version */
+@media (min-width:992px){
+    .nav-link{
+        margin-left: 100px;
+        color: white !important;
+}
+
+    .jumbotron{
+    background-image: url(img/jumbotron.jpg);
+    height: 650px;
+    margin-top: -70px;
+    text-align: left;
+}
+
+/* Action */
+.action-kanan{
+    border: none;
+    margin-left: -200px;
+    margin-top: 160px;
+}
+
+.serving img{
+    width: 500px;
+
+}
+
+.tombol1{
+    margin-left: -70px;
+    }
+
+    .action-kiri{
+        margin-right: -200px;
+        margin-top: 160px;
+        z-index: 1;
+    }
+
+    .tombol2{
+        margin-left: 500px;
+    }
+
+        /* Carousel */
+    .carousel-item{
+        height: 400px;
+        margin-top: 50px;
+    }
+
+    .carousel-item h5 img{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+
+    .carousel-control-prev{
+        margin-top: 0px;
+    }
+
+    .carousel-control-next{
+        margin-top: 0px;
+    }
+
+    /* Pertner Card */
+.partner{
+    margin-top: -70px;
+    box-shadow:0px 0px 10px 0px black;
+}
+}
